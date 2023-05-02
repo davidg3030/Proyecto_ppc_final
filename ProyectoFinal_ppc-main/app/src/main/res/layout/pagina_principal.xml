@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- Campo de titulo -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="135dp"
+            android:orientation="horizontal">
+
+            <!--  <ImageView
+                android:layout_width="94dp"
+                android:layout_height="93dp"
+                android:layout_margin="16dp"
+                android:src="@drawable/logo1" />-->
+
+            <!--<TextView
+                android:id="@+id/textView2"
+                android:layout_width="171dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="¡Bienvenido! Todo lo que necesitas, en un solo clic." />-->
+
+        </LinearLayout>
+
+        <!-- LinearLayout para campo de busqueda -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <!--<EditText
+                android:layout_width="358dp"
+                android:layout_height="59dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_corner"
+                android:hint="Buscar productos..."
+                android:padding="16dp" />-->
+
+            <!--<ImageView
+                android:layout_width="68dp"
+                android:layout_height="56dp"
+                android:padding="10dp"
+                android:src="@drawable/ic_search" />-->
+
+        </LinearLayout>
+
+        <!-- ScrollView horizontal para la lista de productos destacados -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="Productos destacados" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <!--<ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="3dp"
+                android:src="@drawable/producto1" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="3dp"
+                android:src="@drawable/producto2" />
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="3dp"
+                android:src="@drawable/producto3" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="3dp"
+                android:src="@drawable/producto4" />
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="3dp"
+                android:src="@drawable/producto5" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="3dp"
+                android:src="@drawable/producto6" />-->
+        </LinearLayout>
+
+        <!-- ScrollView horizontal para la lista de productos en oferta -->
+        </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="Ofertas" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="99dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!--<ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:padding="3dp"
+                    android:src="@drawable/oferta1" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:padding="3dp"
+                    android:src="@drawable/oferta2" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:padding="3dp"
+                    android:src="@drawable/oferta3" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:padding="3dp"
+                    android:src="@drawable/oferta4" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:padding="3dp"
+                    android:src="@drawable/oferta5" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:padding="3dp"
+                    android:src="@drawable/oferta6" />-->
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="Tecnologia" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <!--<ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:padding="3dp"
+                    android:src="@drawable/tecnologia1" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:padding="3dp"
+                    android:src="@drawable/tecnologia2" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:padding="3dp"
+                    android:src="@drawable/tecnologia3" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:padding="3dp"
+                    android:src="@drawable/tecnologia4" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:padding="3dp"
+                    android:src="@drawable/tecnologia5" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:padding="3dp"
+                    android:src="@drawable/tecnologia6" />-->
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
