@@ -11,12 +11,12 @@
         android:padding="16dp">
 
         <!-- Botón para seleccionar una imagen de la galería -->
-        <!--<Button
+        <Button
             android:id="@+id/BlackButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/circule_button"
-            android:text="Seleccionar imagen" />-->
+            android:text="Seleccionar imagen" />
 
         <!-- ImageView para mostrar la imagen seleccionada -->
         <ImageView
