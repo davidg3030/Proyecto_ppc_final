@@ -15,7 +15,7 @@
             android:layout_height="135dp"
             android:orientation="horizontal">
 
-            <ImageView
+             <ImageView
                 android:layout_width="94dp"
                 android:layout_height="93dp"
                 android:layout_margin="16dp"
@@ -70,42 +70,42 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:padding="3dp"
-                    android:src="@drawable/producto1" />
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="3dp"
+                android:src="@drawable/producto1" />
 
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:padding="3dp"
-                    android:src="@drawable/producto2" />
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:padding="3dp"
-                    android:src="@drawable/producto3" />
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="3dp"
+                android:src="@drawable/producto2" />
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="3dp"
+                android:src="@drawable/producto3" />
 
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:padding="3dp"
-                    android:src="@drawable/producto4" />
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:padding="3dp"
-                    android:src="@drawable/producto5" />
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="3dp"
+                android:src="@drawable/producto4" />
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="3dp"
+                android:src="@drawable/producto5" />
 
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:padding="3dp"
-                    android:src="@drawable/producto6" />
-            </LinearLayout>
+            <!--<ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="3dp"
+                android:src="@drawable/producto6" />-->
+        </LinearLayout>
 
-            <!-- ScrollView horizontal para la lista de productos en oferta -->
+        <!-- ScrollView horizontal para la lista de productos en oferta -->
         </HorizontalScrollView>
 
         <TextView

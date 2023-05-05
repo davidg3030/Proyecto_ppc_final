@@ -10,7 +10,7 @@
         android:layout_width="wrap_content"
         android:layout_height="466dp"
         android:layout_gravity="center_horizontal"
-        android:src="@drawable/logo" />
+        android:src="@drawable/logo1" />
 
     <!-- Caja de texto para el nombre de usuario -->
     <EditText
